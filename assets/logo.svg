@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">ObjectLog</title>
+  <defs>
+    <linearGradient id="blue" x1="24" y1="16" x2="232" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4f75ff"/>
+      <stop offset="1" stop-color="#6685f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#blue)"/>
+  <rect x="57" y="48" width="142" height="160" rx="43" fill="#fff"/>
+  <rect x="83" y="82" width="90" height="30" rx="15" fill="url(#blue)"/>
+  <rect x="83" y="130" width="66" height="30" rx="15" fill="url(#blue)"/>
+</svg>
