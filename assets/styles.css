@@ -80,6 +80,12 @@ a { color: var(--accent-strong); text-underline-offset: 0.18em; }
   gap: 22px;
 }
 
+.nav-group {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .nav-links a,
 .footer-links a {
   color: var(--muted);
@@ -310,6 +316,31 @@ h3 { margin-bottom: 10px; font-size: 1.35rem; }
 .support-item h2 { margin-top: 0; }
 footer:not(.site-footer) { padding: 28px 8px 0; text-align: center; font-size: 0.9rem; }
 
+.gateway {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding-block: 24px;
+}
+
+.gateway-card {
+  width: min(560px, 100%);
+  text-align: center;
+}
+
+.gateway-card img {
+  width: 96px;
+  margin: 0 auto 22px;
+  border-radius: 26px;
+}
+
+.gateway-card h1 {
+  margin-bottom: 12px;
+  font-size: clamp(2.5rem, 9vw, 4.5rem);
+}
+
+.gateway-card .actions { justify-content: center; }
+
 @media (max-width: 940px) {
   .hero-section { grid-template-columns: 1fr; padding-top: 24px; }
   .hero-copy { text-align: center; }
@@ -328,6 +359,7 @@ footer:not(.site-footer) { padding: 28px 8px 0; text-align: center; font-size: 0
   .topbar { margin-bottom: 28px; }
   .nav-links { gap: 14px; }
   .nav-links a:first-child { display: none; }
+  .nav-group { gap: 10px; }
   .hero-section { min-height: auto; padding-bottom: 48px; }
   h1 { font-size: clamp(2.75rem, 15vw, 4rem); }
   .hero-visual { min-height: 530px; }
